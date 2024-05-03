@@ -13,7 +13,7 @@ QR- WEB - PAIR CODE FOR BOT WITH WHISKEYSOCKETS/BAILEYS
      
 </a>
    <a aria-label="QRis free to use" href="https://whatsapp.com/channel/0029VaBcXo4JJhzW9c1uVD2X" target="_blank">
- <p align="center"><img src="https://telegra.ph/file/ac64eb9543937fe3baaf3.jpg" alt="xcelsama:: Visitor's Count" /></p>
+ <p align="center"><img src="https://telegra.ph/file/99e71b66e7dedc755d071.mp4" alt="xcelsama:: Visitor's Count" /></p>
 
 
 
