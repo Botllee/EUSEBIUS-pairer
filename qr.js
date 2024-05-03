@@ -28,13 +28,13 @@ const {
 } = require("node:fs/promises")
 router.get('/', async (req, res) => {
 	const id = makeid();
-	async function KEITH_TECH_QR_CODE() {
+	async function KING_AMDI_AI_QR_CODE() {
 		const {
 			state,
 			saveCreds
 		} = await useMultiFileAuthState('./temp/' + id)
 		try {
-			let Qr_Code_By_Keith_Tech= Ibrahim_Tech({
+			let KING_AMDI_AI_QR_CODE= Ibrahim_Tech({
 				auth: state,
 				printQRInTerminal: false,
 				logger: pino({
@@ -43,8 +43,8 @@ router.get('/', async (req, res) => {
 				browser: Browsers.macOS("Desktop"),
 			});
 
-			Qr_Code_By_Keith_Tech.ev.on('creds.update', saveCreds)
-			Qr_Code_By_Keith_Techr.ev.on("connection.update", async (s) => {
+			Qr_Code_By_EUSEBIUS_TECH.ev.on('creds.update', saveCreds)
+			Qr_Code_By_EUSEBIUS_TECHr.ev.on("connection.update", async (s) => {
 				const {
 					connection,
 					lastDisconnect,
@@ -63,14 +63,14 @@ router.get('/', async (req, res) => {
 *_Made With 🤖_*
 ______________________________________
 ╔════◇
-║ *『 KEITH-TECH OFFICIAL 』*
+║ *『 KING-AMDI-AI 』*
 ║ _YOU HAVE SUCCESSFULLY SELECTED THE BEST BOT._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://youtube.com/@keithkeizzah?si=PviuOaZQHHvAjpxH_
-║❒ *Owner:* _https://wa.me/qr/W6BT5CSV4NPNJ1_
-║❒ *Repo:* _https://github.com/Keithkeizzah/huncho_
+║❒ *Ytube:* _COMMING SOON
+║❒ *Owner:* __
+║❒ *Repo:* _
 ║❒ *WaGroup:* _https://chat.whatsapp.com/KeEYrEX8UDdGD4m4GbdHaA_
 ║❒ *WaChannel:* _https://whatsapp.com/channel/0029Vaan9TF9Bb62l8wpoD47_
 ║❒ *Plugins:* _https://github.com/Keithkeizzah/Keith-bot-md-plugins_
@@ -78,12 +78,12 @@ ______________________________________
 _____________________________________
 	
 _Don't Forget To Give Star To My Repo_`
-	 await Qr_Code_Keith_Tech.sendMessage(Qr_Code__Keith_Tech.user.id,{text:KEITH_TECH_TEXT},{quoted:session})
+	 await Qr_Code_EUSEBIUS_TECH.sendMessage(Qr_Code__EUSEBIUS_TECH.user.id,{text:EUSEBIUS_TECH_TEXT},{quoted:session})
 
 
 
 					await delay(100);
-					await Qr_Code__Keith_Tech.ws.close();
+					await Qr_Code__EUSEBIUS_TECH.ws.close();
 					return await removeFile("temp/" + id);
 				} else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
 					await delay(10000);
