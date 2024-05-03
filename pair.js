@@ -20,7 +20,7 @@ function removeFile(FilePath){
 router.get('/', async (req, res) => {
     const id = makeid();
     let num = req.query.number;
-        async function IBRAHIM_TECH_PAIR_CODE() {
+        async function KING_AMDI_AI_PAIR_CODE {
         const {
             state,
             saveCreds
@@ -57,22 +57,22 @@ router.get('/', async (req, res) => {
                let session = await Pair_Code_By_Ibrahim_King.sendMessage(Pair_Code__Ibrahim_King.user.id, { text: '' + b64data });
 
                let IBRAHIM_TECH_TEXT = `
-*_Pair Code for IBRAHIM_TECH Connected_*
+*_Pair Code for KING-AMDI-AI connected _*
 *_Made With 🤍_*
-*By Ibrahim-tech*
+*By Eusebius*
 ______________________________________
 ╔════◇
-║ *『 IBRAHIM-TECH OFFICIAL 』*
+║ *『 EUSEBIUS-TECH-INFO 』*
 ║ _YOU HAVE SUCCESSFULLY SELECTED THE BEST BOT._
 ╚══════════════════════╝
 ╔═════◇
 ║  『••• 𝗩𝗶𝘀𝗶𝘁 𝗙𝗼𝗿 𝗛𝗲𝗹𝗽 •••』
-║❒ *Ytube:* _https://wa.me/message/74F2PC4JA4F3P1_
-║❒ *Owner:* _https://wa.me/message/74F2PC4JA4F3P1_
-║❒ *Repo:* _https://github.com/ibrahimaitech/IBRAHIM-AI-10.10/tree/main_
-║❒ *WaGroup:* _https://chat.whatsapp.com/L7T4iMvnfwCA8oLkUIRCFj_
-║❒ *WaChannel:* _https://chat.whatsapp.com/L7T4iMvnfwCA8oLkUIRCFj_
-║❒ *Plugins:* _https://github.com/Ibrahimaitech/Ibrahim-bot-md-plugins_
+║❒ *Ytube:* _https://wa.me/254710415721_
+║❒ *Owner:* _
+║❒ *Repo:* _https://github.com/Botllee/King-Amdi-Ai/tree/main_
+║❒ *WaGroup:* _https://chat.whatsapp.com/B7f9sHBRfTjFoF7eii9TzU
+║❒ *WaChannel:* _COMMING SOON!!!
+║❒ *Plugins:* _
 ╚══════════════════════╝ 
 _____________________________________
 _Don't Forget To Give a Star To My Repo_`
@@ -80,11 +80,11 @@ _Don't Forget To Give a Star To My Repo_`
  
 
         await delay(100);
-        await Pair_Code_Ibrahim_King.ws.close();
+        await Pair_Code_KING-AMDI-AI.ws.close();
         return await removeFile('./temp/'+id);
             } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10000);
-                    IBRAHIM_TECH_PAIR_CODE();
+                    KING_AMDI_AI_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -95,6 +95,6 @@ _Don't Forget To Give a Star To My Repo_`
          }
         }
     }
-    return await IBRAHIM_TECH_PAIR_CODE()
+    return await KING_AMDI_AI_PAIR_CODE()
 });
 module.exports = router
