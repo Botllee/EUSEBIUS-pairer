@@ -21,11 +21,11 @@ QR- WEB - PAIR CODE FOR BOT WITH WHISKEYSOCKETS/BAILEYS
 
 FORK THE REPOSITORY (Repo) 
     <br>
-<a href="https://github.com/Keithkeizzah/keith-pair"><img title="WEB" src="https://img.shields.io/badge/FORK Gifted-QR?color=black&style=for-the-badge&logo=stackshare"></a>
+<a href="https//github.com/Botllee/EUSEBIUS-pairer"><img title="WEB" src="https://img.shields.io/badge/FORK Gifted-QR?color=black&style=for-the-badge&logo=stackshare"></a>
 
 Now Deploy
     <br>
-<a href='https://dashboard.heroku.com/new?template=https://github.com/Botllee/CR-7-PAIR' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
+<a href='https://dashboard.heroku.com/new?template=https://github.com/Botllee/EUSEBIUS-pairer' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/>
 # `Owner`
 
  <a href="https://github.com/Keithkeizzah"><img src="https://telegra.ph/file/ac64eb9543937fe3baaf3.jpg" width="250" height="250" alt="Giftedmaurice"/></a>
