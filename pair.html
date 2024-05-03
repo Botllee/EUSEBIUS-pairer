@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pair Code</title>
+  <title>KING-AMDI-AI-PARING-CODE</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     body {
@@ -142,9 +142,9 @@
         <div id="text">
           <i class="fa fa-user"></i>
           <p>
-            <h3 class="centered-text">CR- PAIRING CODE</h3>
+            <h3 class="centered-text">KING-AMDI-AI- PAIRING CODE</h3>
             <br>
-            <h6>CR-7 THE BEST BOT.</h6>
+            <h6>KING-AMDI-AI THE BEST BOT.</h6>
             <h6>Enter Your Number with Country Code.</h6>
             <div class="input-container">
               <input placeholder="25471041xxx" type="number" id="number" placeholder="Enter your Phone Pumber with Cuntry Code" name="">
@@ -188,10 +188,10 @@
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
         a.innerHTML = '<a style="color:red;font-weight:bold">Invalid Number</a><br><br>';
       } else {
-        const CR-7 = c.value.replace(/[^0-9]/g, "");
+        const KING-AMDI-AI = c.value.replace(/[^0-9]/g, "");
         let bb = "";
         let bbc = "";
-        const cc = CR-7.split('');
+        const cc = KING-AMDI-AI.split('');
         cc.map(a => {
           bbc += a;
           if (bbc.length == 3) {
@@ -206,7 +206,7 @@
         c.value = "+" + bb;
         c.style = "color:black;font-size:20px";
         a.innerHTML = '<a style="color:white;font-weight:bold">Please Wait...</a><br><br>';
-        let { data } = await axios(`/code?number=${CR-7}`);
+        let { data } = await axios(`/code?number=${KING-AMDI-AI}`);
         let code = data.code || "Service Unavailable";
         a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:white;font-weight:bold">' + code + '</span></font><br><br><br>';
       }
